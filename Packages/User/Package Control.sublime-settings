@@ -1,0 +1,12 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"FileDiffs",
+		"Package Control",
+		"Theme - Spacegray",
+		"Trimmer"
+	]
+}

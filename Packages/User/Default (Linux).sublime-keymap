@@ -1,0 +1,16 @@
+[
+    { "keys": ["ctrl+t"], "command": "new_file" },
+    { "keys": ["down"], "command": "hide_auto_complete_popup_and_move_down" },
+    { "keys": ["ctrl+shift+`"], "command": "switch_paired_mode" },
+    { "keys": ["ctrl+pagedown"], "command": "next_view" },
+    { "keys": ["ctrl+i"], "command": "auto_recolorer" },
+    { "keys": ["ctrl+alt+i"], "command": "auto_recolorer_reset" },
+    { "keys": ["ctrl+shift+i"], "command": "auto_recolorer_night_mode_toggle" },
+    { "keys": ["ctrl+pageup"], "command": "prev_view" },
+    { "keys": ["ctrl+tab"], "command": "on_next_view_in_stack" },
+    { "keys": ["ctrl+shift+tab"], "command": "prev_view_in_stack" },
+    { "keys": ["alt+shift+c"], "command": "set_file_type",
+             "args": {"syntax": "C++17/C++17.tmLanguage"}
+},
+
+]
