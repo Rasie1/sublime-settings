@@ -2,6 +2,7 @@
 	"animation_enabled": false,
 	"auto_complete_commit_on_tab": false,
 	"auto_match_enabled": false,
+	"auto_recolorer_night_mode": true,
 	"caret_style": "blink",
 	"color_scheme": "Packages/User/VS.tmTheme",
 	"detect_indentation": false,
@@ -12,25 +13,24 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Theme - Spacegray",
-		"Groovy",
-		"ASP",
-		"Vintage",
-		"AppleScript",
-		"C++",
 		"Graphviz",
 		"Textile",
-		"Objective-C"
+		"AppleScript",
+		"Theme - Spacegray",
+		"ASP",
+		"Vintage",
+		"Groovy",
+		"Objective-C",
+		"C++"
 	],
 	"indent_to_bracket": true,
 	"match_brackets_angle": true,
 	"paired_mode_enabled": true,
+	"recolor_on_save": true,
 	"scroll_speed": 4.0,
 	"show_encoding": false,
 	"tab_completion": true,
 	"theme": "SpacegrayFlat.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"tree_animation_enabled": false,
-    "recolor_on_save": true,
-    "auto_recolorer_night_mode": true
+	"tree_animation_enabled": false
 }
