@@ -13,6 +13,7 @@
         <string>cp</string>
         <string>cxx</string>
         <string>c++</string>
+        <string>c</string>
         <string>hh</string>
         <string>thh</string>
         <string>hpp</string>

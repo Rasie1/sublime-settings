@@ -8,20 +8,21 @@
 	"detect_indentation": false,
 	"drag_text": false,
 	"ensure_newline_at_eof_on_save": true,
-	"font_size": 10,
+	"font_face": "Hack",
+	"font_size": 9,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Graphviz",
-		"Textile",
 		"AppleScript",
-		"Theme - Spacegray",
 		"ASP",
-		"Vintage",
+		"C++",
+		"Graphviz",
 		"Groovy",
 		"Objective-C",
-		"C++"
+		"Textile",
+		"Theme - Spacegray",
+		"Vintage"
 	],
 	"indent_to_bracket": true,
 	"match_brackets_angle": true,

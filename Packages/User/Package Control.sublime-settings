@@ -1,11 +1,14 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
 		"FileDiffs",
+		"LaTeXing",
 		"Package Control",
+		"SublimeREPL",
 		"Theme - Spacegray",
 		"Trimmer"
 	]

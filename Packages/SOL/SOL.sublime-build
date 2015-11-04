@@ -1,0 +1,5 @@
+{
+	"shell_cmd": "/mnt/78A20FA5A20F66CA/Projects/Languages/Translator/convert.sh \"$file\"",
+	"file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+	"selector": "source.sol"
+}
