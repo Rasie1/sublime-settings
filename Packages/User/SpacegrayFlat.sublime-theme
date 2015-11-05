@@ -5,15 +5,15 @@
         "layer0.inner_margin": 0, 
         "tab_overlap": 0, 
         "content_margin": -2, 
-        "tab_width": 128, 
         "tab_height": 20, 
         "tab_min_width": 24, 
-        "class": "tabset_control", 
         "layer0.tint": [
             45, 
             45, 
             45
         ], 
+        "class": "tabset_control", 
+        "tab_width": 128, 
         "layer0.opacity": 1
     }, 
     {
@@ -29,17 +29,17 @@
             5, 
             5
         ], 
+        "class": "tab_control", 
         "content_margin": [
             8, 
             0
         ], 
-        "class": "tab_control", 
+        "hit_test_level": 0, 
         "layer0.tint": [
             45, 
             45, 
             45
         ], 
-        "hit_test_level": 0, 
         "max_margin_trim": 0, 
         "layer0.opacity": 1
     }, 
@@ -602,10 +602,10 @@
     {
         "class": "minimap_control", 
         "viewport_color": [
-            255, 
-            255, 
-            255, 
-            31
+            0, 
+            0, 
+            0, 
+            208
         ]
     }, 
     {

@@ -157,6 +157,11 @@ class AutoRecolorerNightModeToggle(sublime_plugin.TextCommand):
             data[33]["layer0.tint"][0] = 249
             data[33]["layer0.tint"][1] = 249
             data[33]["layer0.tint"][2] = 249
+            #minimap control fg
+            data[47]["viewport_color"][0] = 0
+            data[47]["viewport_color"][1] = 0
+            data[47]["viewport_color"][2] = 0
+            data[47]["viewport_color"][3] = 208
             #sidebar tab bg
             data[58]["layer0.tint"][0] = 249
             data[58]["layer0.tint"][1] = 249
@@ -185,6 +190,11 @@ class AutoRecolorerNightModeToggle(sublime_plugin.TextCommand):
             data[33]["layer0.tint"][0] = 17
             data[33]["layer0.tint"][1] = 17
             data[33]["layer0.tint"][2] = 17
+            #minimap control fg
+            data[47]["viewport_color"][0] = 255
+            data[47]["viewport_color"][1] = 255
+            data[47]["viewport_color"][2] = 255
+            data[47]["viewport_color"][3] = 31
             #sidebar tab bg
             data[58]["layer0.tint"][0] = 17
             data[58]["layer0.tint"][1] = 17
