@@ -150,13 +150,13 @@ class AutoRecolorerNightModeToggle(sublime_plugin.TextCommand):
             data[22]["fg"][1] = 25
             data[22]["fg"][2] = 25
             #scrollbar control v
-            data[32]["layer0.tint"][0] = 249
-            data[32]["layer0.tint"][1] = 249
-            data[32]["layer0.tint"][2] = 249
+            data[32]["layer0.tint"][0] = 45
+            data[32]["layer0.tint"][1] = 45
+            data[32]["layer0.tint"][2] = 45
             #scrollbar control h
-            data[33]["layer0.tint"][0] = 249
-            data[33]["layer0.tint"][1] = 249
-            data[33]["layer0.tint"][2] = 249
+            data[33]["layer0.tint"][0] = 45
+            data[33]["layer0.tint"][1] = 45
+            data[33]["layer0.tint"][2] = 45
             #minimap control fg
             data[47]["viewport_color"][0] = 0
             data[47]["viewport_color"][1] = 0
@@ -183,13 +183,13 @@ class AutoRecolorerNightModeToggle(sublime_plugin.TextCommand):
             data[22]["fg"][1] = 225
             data[22]["fg"][2] = 225
             #scrollbar control v
-            data[32]["layer0.tint"][0] = 17
-            data[32]["layer0.tint"][1] = 17
-            data[32]["layer0.tint"][2] = 17
+            data[32]["layer0.tint"][0] = 45
+            data[32]["layer0.tint"][1] = 45
+            data[32]["layer0.tint"][2] = 45
             #scrollbar control h
-            data[33]["layer0.tint"][0] = 17
-            data[33]["layer0.tint"][1] = 17
-            data[33]["layer0.tint"][2] = 17
+            data[33]["layer0.tint"][0] = 45
+            data[33]["layer0.tint"][1] = 45
+            data[33]["layer0.tint"][2] = 45
             #minimap control fg
             data[47]["viewport_color"][0] = 255
             data[47]["viewport_color"][1] = 255

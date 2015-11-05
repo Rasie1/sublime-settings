@@ -9,12 +9,12 @@
         "tab_height": 20, 
         "tab_min_width": 24, 
         "class": "tabset_control", 
-        "tab_width": 128, 
         "layer0.tint": [
             45, 
             45, 
             45
-        ]
+        ], 
+        "tab_width": 128
     }, 
     {
         "class": "tabset_control", 
@@ -33,15 +33,15 @@
             8, 
             0
         ], 
+        "class": "tab_control", 
+        "layer0.opacity": 1, 
         "hit_test_level": 0, 
+        "max_margin_trim": 0, 
         "layer0.tint": [
             45, 
             45, 
             45
-        ], 
-        "class": "tab_control", 
-        "max_margin_trim": 0, 
-        "layer0.opacity": 1
+        ]
     }, 
     {
         "class": "tab_control", 
@@ -393,9 +393,9 @@
         ], 
         "class": "scroll_bar_control", 
         "layer0.tint": [
-            17, 
-            17, 
-            17
+            45, 
+            45, 
+            45
         ], 
         "blur": true, 
         "layer0.opacity": 1
@@ -411,9 +411,9 @@
         ], 
         "class": "scroll_bar_control", 
         "layer0.tint": [
-            17, 
-            17, 
-            17
+            45, 
+            45, 
+            45
         ], 
         "blur": true, 
         "layer0.opacity": 1
@@ -490,17 +490,17 @@
             0, 
             5
         ], 
-        "class": "scroll_bar_control", 
-        "layer0.opacity": 0, 
         "settings": [
             "overlay_scroll_bars"
         ], 
-        "blur": false, 
+        "class": "scroll_bar_control", 
         "layer0.tint": [
             45, 
             45, 
             45
-        ]
+        ], 
+        "blur": false, 
+        "layer0.opacity": 0
     }, 
     {
         "attributes": [
