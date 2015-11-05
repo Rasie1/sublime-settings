@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!-- 
+<?xml version="1.0" ?><!DOCTYPE plist  PUBLIC '-//Apple Computer//DTD PLIST 1.0//EN'  'http://www.apple.com/DTDs/PropertyList-1.0.dtd'><!-- 
 Comment 56A340
 Keyword 569CD6 
 Numeric B5CEA8
 Defined B4CEA8
--->
-<plist version="1.0">
+--><plist version="1.0">
 <dict>
 	<key>name</key>
 	<string>VS</string>
@@ -18,15 +15,15 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#111111</string>
+				<string>#f9f9f9</string>
 				<key>caret</key>
-				<string>#DCDCDC</string>
+				<string>#111111</string>
 				<key>foreground</key>
-				<string>#DDDDDD</string>
+				<string>#111111</string>
 				<key>invisibles</key>
 				<string>#FFFFFF40</string>
 				<key>lineHighlight</key>
-				<string>#0F0F0F</string>
+				<string>#ffffff</string>
 				<key>selection</key>
 				<string>#264F78</string>
 			</dict>
@@ -39,9 +36,9 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
-				<string>#56A340</string>
+				<string>#a95cbf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -52,9 +49,9 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
-				<string>#DDDDDD</string>
+				<string>#111111</string>
 			</dict>
 		</dict>
 		<dict>
@@ -65,9 +62,9 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
-				<string>#569CD6</string>
+				<string>#a96329</string>
 			</dict>
 		</dict>
         <dict>
@@ -78,9 +75,9 @@ Defined B4CEA8
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string></string>
+                <string/>
                 <key>foreground</key>
-                <string>#DDDDDD</string>
+                <string>#111111</string>
             </dict>
         </dict>
 		<dict>
@@ -91,9 +88,9 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
-				<string>#DDDDDD</string>
+				<string>#111111</string>
 			</dict>
 		</dict>
 		<dict>
@@ -104,9 +101,9 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
-				<string>#DDDDDD</string>
+				<string>#111111</string>
 			</dict>
 		</dict>
 		<dict>
@@ -117,9 +114,9 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
-				<string>#B5CEA8</string>
+				<string>#4a3157</string>
 			</dict>
 		</dict>
 		<dict>
@@ -130,9 +127,9 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
-				<string>#B4CEA8</string>
+				<string>#4b3157</string>
 			</dict>
 		</dict>
 		<dict>
@@ -143,9 +140,9 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
-				<string>#569CD6</string>
+				<string>#a96329</string>
 			</dict>
 		</dict>
 		<dict>
@@ -156,9 +153,9 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
-				<string>#569CD6</string>
+				<string>#a96329</string>
 			</dict>
 		</dict>
 		<dict>
@@ -169,9 +166,9 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
-				<string>#D69D85</string>
+				<string>#29627a</string>
 			</dict>
 		</dict>
 		<dict>
@@ -182,9 +179,9 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
-				<string>#E3BBAB</string>
+				<string>#1c4454</string>
 			</dict>
 		</dict>
 		<dict>
@@ -195,7 +192,7 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
 				<string>#9B9B9B</string>
 			</dict>
@@ -208,7 +205,7 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
 				<string>#9B9B9B</string>
 			</dict>
@@ -223,7 +220,7 @@ Defined B4CEA8
                 <key>fontStyle</key>
                 <string>bold</string>
                 <key>foreground</key>
-                <string>#DDDDDD</string>
+                <string>#111111</string>
             </dict>
         </dict>
         <dict>
@@ -234,9 +231,9 @@ Defined B4CEA8
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string></string>
+                <string/>
                 <key>foreground</key>
-                <string>#4EC9B0</string>
+                <string>#b1364f</string>
             </dict>
         </dict>
 		<dict>
@@ -247,9 +244,9 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
-				<string>#4EC9B0</string>
+				<string>#b1364f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -260,9 +257,9 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
-				<string>#4EC9B0</string>
+				<string>#b1364f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -273,9 +270,9 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
-				<string>#569CD6</string>
+				<string>#a96329</string>
 			</dict>
 		</dict>
 		<dict>
@@ -286,9 +283,9 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
-				<string>#4EC9B0</string>
+				<string>#b1364f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -299,7 +296,7 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 			</dict>
 		</dict>
 		<dict>
@@ -310,7 +307,7 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
 				<string>#70727E</string>
 			</dict>
@@ -323,7 +320,7 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 			</dict>
 		</dict>
 		<dict>
@@ -336,7 +333,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#DDDDDD</string>
+				<string>#111111</string>
 			</dict>
 		</dict>
 		<dict>
@@ -347,9 +344,9 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
-				<string>#4EC9B0</string>
+				<string>#b1364f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -360,9 +357,9 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
-				<string>#B5CEA8</string>
+				<string>#4a3157</string>
 			</dict>
 		</dict>
 		<dict>
@@ -373,9 +370,9 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
-				<string>#DDDDDD</string>
+				<string>#111111</string>
 			</dict>
 		</dict>
 		<dict>
@@ -430,7 +427,7 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
 				<string>#68685B</string>
 			</dict>
@@ -443,7 +440,7 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
 				<string>#808080</string>
 			</dict>
@@ -456,7 +453,7 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 			</dict>
 		</dict>
 		<dict>
@@ -467,7 +464,7 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
 				<string>#808080</string>
 			</dict>
@@ -480,7 +477,7 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
 				<string>#569CD6</string>
 			</dict>
@@ -493,7 +490,7 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
 				<string>#92CAF4</string>
 			</dict>
@@ -506,7 +503,7 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
 				<string>#C8C8C8</string>
 			</dict>
@@ -519,7 +516,7 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
 				<string>#0C07FF</string>
 			</dict>
@@ -532,7 +529,7 @@ Defined B4CEA8
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string/>
 				<key>foreground</key>
 				<string>#000000</string>
 			</dict>

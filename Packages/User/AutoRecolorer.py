@@ -1,4 +1,4 @@
-import sublime, sublime_plugin, os, random, shutil
+import sublime, sublime_plugin, os, random, shutil, json
 from xml.dom.minidom import parse
 
 defaultScheme = sublime.packages_path() + "/User/VSDefault.tmTheme"
@@ -29,11 +29,25 @@ def change(colors):
         if ((oneChange + rgb[(two + 2) % 3] > 255) or (rgb[(two + 2) % 3] - oneChange  < 0)):
             continue
         rgb[two] += twoChange
+        rgb[two] %= 256
         rgb[(two + 1) % 3] += sign * scale
+        rgb[(two + 1) % 3] %= 256
         rgb[(two + 2) % 3] += sign * scale
+        rgb[(two + 2) % 3] %= 256
         break
     if counter == 0:
         print('warning:#%02x%02x%02x' % tuple(rgb))
+    for color in colors:
+        color.replaceWholeText(rgb_to_hex(rgb))
+    return
+
+def inverse(colors):
+    rgb = hex_to_rgb(colors[0].nodeValue)
+    scale = 3
+    counter = 1000
+    rgb[0] = 255 - rgb[0]
+    rgb[1] = 255 - rgb[1]
+    rgb[2] = 255 - rgb[2]
     for color in colors:
         color.replaceWholeText(rgb_to_hex(rgb))
     return
@@ -69,8 +83,11 @@ class AutoRecolorer(sublime_plugin.TextCommand):
 class AutoRecolorerReset(sublime_plugin.TextCommand):
     def run(self, edit):
         path = sublime.packages_path()
+        currentTheme = sublime.packages_path() + "/User/SpacegrayFlat.sublime-theme"
+        defaultTheme = sublime.packages_path() + "/User/SpacegrayFlatDefault.sublime-theme"
         defaultScheme = path + "/User/VSDefault.tmTheme"
         shutil.copyfile(defaultScheme, currentScheme)
+        shutil.copyfile(defaultTheme, currentTheme)
 
 def toggle_night(colors, daycolor, nightcolor, is_night):
     rgb = hex_to_rgb(colors[0].nodeValue)
@@ -87,7 +104,6 @@ def toggle_night(colors, daycolor, nightcolor, is_night):
 class AutoRecolorerNightModeToggle(sublime_plugin.TextCommand):
 
     def run(self, edit):
-
         currentScheme = sublime.packages_path() + "/User/VS.tmTheme"
         path = currentScheme
 
@@ -120,17 +136,84 @@ class AutoRecolorerNightModeToggle(sublime_plugin.TextCommand):
         #lib var
         toggle_night ([array.childNodes[55].childNodes[11].childNodes[7].childNodes[0]], (17, 17, 17), (221, 221, 221), mode)
 
-        #tab bg
-
-        #tab fg
-
-        #sidebar tab bg
-
-        #sidebar tab fg
-
-        #cmd bg
-
+        currentTheme = sublime.packages_path() + "/User/SpacegrayFlat.sublime-theme"
+        jsonFile = open(currentTheme, "r")
+        data = json.load(jsonFile)
         #cmd fg
+        if (mode):
+            #tab bg
+            data[5]["layer0.tint"][0] = 249
+            data[5]["layer0.tint"][1] = 249
+            data[5]["layer0.tint"][2] = 249
+            #tab fg
+            data[22]["fg"][0] = 25
+            data[22]["fg"][1] = 25
+            data[22]["fg"][2] = 25
+            #scrollbar control v
+            data[32]["layer0.tint"][0] = 249
+            data[32]["layer0.tint"][1] = 249
+            data[32]["layer0.tint"][2] = 249
+            #scrollbar control h
+            data[33]["layer0.tint"][0] = 249
+            data[33]["layer0.tint"][1] = 249
+            data[33]["layer0.tint"][2] = 249
+            #sidebar tab bg
+            data[58]["layer0.tint"][0] = 249
+            data[58]["layer0.tint"][1] = 249
+            data[58]["layer0.tint"][2] = 249
+            #sidebar tab fg
+            data[75]["color"][0] = 25
+            data[75]["color"][1] = 25
+            data[75]["color"][2] = 25
+            #cmd bg
+
+            #cmd fg
+        else:
+            #tab bg
+            data[5]["layer0.tint"][0] = 17
+            data[5]["layer0.tint"][1] = 17
+            data[5]["layer0.tint"][2] = 17
+            #tab fg
+            data[22]["fg"][0] = 225
+            data[22]["fg"][1] = 225
+            data[22]["fg"][2] = 225
+            #scrollbar control v
+            data[32]["layer0.tint"][0] = 17
+            data[32]["layer0.tint"][1] = 17
+            data[32]["layer0.tint"][2] = 17
+            #scrollbar control h
+            data[33]["layer0.tint"][0] = 17
+            data[33]["layer0.tint"][1] = 17
+            data[33]["layer0.tint"][2] = 17
+            #sidebar tab bg
+            data[58]["layer0.tint"][0] = 17
+            data[58]["layer0.tint"][1] = 17
+            data[58]["layer0.tint"][2] = 17
+            #sidebar tab fg
+            data[75]["color"][0] = 225
+            data[75]["color"][1] = 225
+            data[75]["color"][2] = 225
+        jsonFile.close()
+
+        jsonFile = open(currentTheme, "w")
+        jsonFile.write(json.dumps(data,  indent=4))
+        jsonFile.close()
+
+        #comment
+        inverse ([array.childNodes[3].childNodes[11].childNodes[7].childNodes[0]]) 
+        #keyword
+        inverse ([array.childNodes[7].childNodes[11].childNodes[7].childNodes[0], array.childNodes[19].childNodes[11].childNodes[7].childNodes[0], array.childNodes[21].childNodes[11].childNodes[7].childNodes[0], array.childNodes[39].childNodes[11].childNodes[7].childNodes[0]])
+        #numeric
+        inverse ([array.childNodes[15].childNodes[11].childNodes[7].childNodes[0], array.childNodes[53].childNodes[11].childNodes[7].childNodes[0]])
+        #user defined constant
+        inverse ([array.childNodes[17].childNodes[11].childNodes[7].childNodes[0]])
+        #string
+        inverse ([array.childNodes[23].childNodes[11].childNodes[7].childNodes[0]])
+        #string interpolation
+        inverse ([array.childNodes[25].childNodes[11].childNodes[7].childNodes[0]])
+        #type
+        inverse ([array.childNodes[33].childNodes[11].childNodes[7].childNodes[0], array.childNodes[35].childNodes[11].childNodes[7].childNodes[0], array.childNodes[37].childNodes[11].childNodes[7].childNodes[0], array.childNodes[41].childNodes[11].childNodes[7].childNodes[0], array.childNodes[51].childNodes[11].childNodes[7].childNodes[0]])
+        
 
         f = open(path, 'w')
         dom.writexml(f)
