@@ -4,13 +4,43 @@
     { "keys": ["ctrl+shift+`"], "command": "switch_paired_mode" },
     { "keys": ["ctrl+pagedown"], "command": "next_view" },
     { "keys": ["ctrl+i"], "command": "auto_recolorer" },
+    { "keys": ["ctrl+alt+right"], "command": "transpose" },
     { "keys": ["ctrl+alt+i"], "command": "auto_recolorer_reset" },
     { "keys": ["ctrl+shift+i"], "command": "auto_recolorer_night_mode_toggle" },
     { "keys": ["ctrl+pageup"], "command": "prev_view" },
     { "keys": ["ctrl+tab"], "command": "on_next_view_in_stack" },
     { "keys": ["ctrl+shift+tab"], "command": "prev_view_in_stack" },
     { "keys": ["alt+shift+c"], "command": "set_file_type",
-             "args": {"syntax": "C++17/C++17.tmLanguage"}
-},
-
+             "args": {"syntax": "C++17/C++17.tmLanguage"}},
+    { "keys": ["alt+shift+t"], "command": "set_file_type",
+             "args": {"syntax": "Packages/Text/Plain text.tmLanguage"}},
+    { "keys": ["alt+shift+h"], "command": "set_file_type",
+             "args": {"syntax": "Packages/Haskell/Haskell.tmLanguage"}},
+    { "keys": ["alt+shift+j"], "command": "set_file_type",
+             "args": {"syntax": "Packages/JavaScript/JSON.tmLanguage"}},
+    { "keys": ["alt+shift+l"], "command": "set_file_type",
+             "args": {"syntax": "Packages/LaTeX/LaTeX.tmLanguage"}},
+    {
+        "keys": ["alt+shift+6"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 0.5, 1.0],
+            "rows": [0.0, 0.5, 1.0],
+            "cells":[[0, 0, 1, 2],[1, 0, 2, 1],[1, 1, 2, 2]]
+        }
+    },
+    {
+        "keys": ["alt+shift+3"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 0.25, 0.75, 1.0], 
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1]]
+        }
+    },
+    { "keys": ["shift+space", "space"], "command": "set_mark" },
+    { "keys": ["shift+space", "a"], "command": "select_to_mark" },
+    { "keys": ["shift+space", "x"], "command": "delete_to_mark" }, 
 ]
