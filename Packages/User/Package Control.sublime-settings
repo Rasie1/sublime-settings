@@ -5,10 +5,14 @@
 	],
 	"installed_packages":
 	[
+		"Color Highlighter",
+		"ColorPicker",
 		"FileDiffs",
 		"LaTeXing",
 		"Package Control",
+		"SideBarEnhancements",
 		"SublimeREPL",
+		"Terminal",
 		"Theme - Spacegray",
 		"Trimmer"
 	]

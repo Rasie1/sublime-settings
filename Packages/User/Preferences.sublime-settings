@@ -1,4 +1,5 @@
 {
+    "tab_size": 4,
 	"animation_enabled": false,
 	"auto_complete_commit_on_tab": false,
 	"auto_match_enabled": false,
@@ -8,7 +9,6 @@
 	"detect_indentation": false,
 	"drag_text": false,
 	"ensure_newline_at_eof_on_save": true,
-	"font_face": "Hack",
 	"font_size": 9,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,

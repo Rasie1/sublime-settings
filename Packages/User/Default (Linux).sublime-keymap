@@ -43,4 +43,9 @@
     { "keys": ["shift+space", "space"], "command": "set_mark" },
     { "keys": ["shift+space", "a"], "command": "select_to_mark" },
     { "keys": ["shift+space", "x"], "command": "delete_to_mark" }, 
+    { "keys": ["shift+space", "1"], "command": "set_setting", "args": {"setting": "tab_size", "value": 1} },
+    { "keys": ["shift+space", "2"], "command": "set_setting", "args": {"setting": "tab_size", "value": 2} },
+    { "keys": ["shift+space", "3"], "command": "set_setting", "args": {"setting": "tab_size", "value": 3} },
+    { "keys": ["shift+space", "4"], "command": "set_setting", "args": {"setting": "tab_size", "value": 4} },
+    { "keys": ["shift+space", "5"], "command": "set_setting", "args": {"setting": "tab_size", "value": 8} }
 ]
