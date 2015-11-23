@@ -1,0 +1,4 @@
+
+[submodule "Packages/idris-sublime"]
+	path = Packages/idris-sublime
+	url = https://github.com/Rasie1/idris-sublime.git

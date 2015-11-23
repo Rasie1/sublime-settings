@@ -38,7 +38,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#e6c78c</string>
+				<string>#f8ac95</string>
 			</dict>
 		</dict>
 		<dict>
@@ -64,7 +64,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#fbb11c</string>
+				<string>#ecbd1f</string>
 			</dict>
 		</dict>
         <dict>
@@ -116,7 +116,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#eb7dc3</string>
+				<string>#ee9ba2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -129,7 +129,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#f071c9</string>
+				<string>#f64aea</string>
 			</dict>
 		</dict>
 		<dict>
@@ -142,7 +142,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#fbb11c</string>
+				<string>#ecbd1f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -155,7 +155,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#fbb11c</string>
+				<string>#ecbd1f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -168,7 +168,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#82eb8b</string>
+				<string>#7cdca0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -181,7 +181,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#74f7de</string>
+				<string>#7de5e7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -233,7 +233,7 @@ Defined B4CEA8
                 <key>fontStyle</key>
                 <string/>
                 <key>foreground</key>
-                <string>#ede5f5</string>
+                <string>#f9f1dd</string>
             </dict>
         </dict>
 		<dict>
@@ -246,7 +246,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#ede5f5</string>
+				<string>#f9f1dd</string>
 			</dict>
 		</dict>
 		<dict>
@@ -259,7 +259,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#ede5f5</string>
+				<string>#f9f1dd</string>
 			</dict>
 		</dict>
 		<dict>
@@ -272,7 +272,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#fbb11c</string>
+				<string>#ecbd1f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -285,7 +285,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#ede5f5</string>
+				<string>#f9f1dd</string>
 			</dict>
 		</dict>
 		<dict>
@@ -346,7 +346,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#ede5f5</string>
+				<string>#f9f1dd</string>
 			</dict>
 		</dict>
 		<dict>
@@ -359,7 +359,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#eb7dc3</string>
+				<string>#ee9ba2</string>
 			</dict>
 		</dict>
 		<dict>
