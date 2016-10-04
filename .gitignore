@@ -4,4 +4,6 @@ Index
 Local
 Packages/bz2
 Packages/ssl-linux
-Packages/User/Package Control.cache
+Packages/User/Package Control.*
+Packages/User/Color Highlighter
+Packages/Terminal/messages/1.13.0.txt
