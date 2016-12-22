@@ -7,7 +7,7 @@
  [
    {
      "name": "Run",
-     "cmd":["bash", "-c", "g++ -std=c++1y '${file}' -o '${file_path}/${file_base_name}' && '${file_path}/${file_base_name}'"]
+     "cmd":["bash", "-c", "g++ -std=c++1y '${file}' -o '${file_path}/${file_base_name}' -lboost_system -lboost_filesystem -lpthread -lcrypto -lssl && '${file_path}/${file_base_name}'"]
    }
  ]
 }

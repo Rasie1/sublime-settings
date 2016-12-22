@@ -1,5 +1,6 @@
 [
     { "keys": ["ctrl+t"], "command": "new_file" },
+    { "keys": ["ctrl+shift+t"], "command": "reopen_last_file" },
     { "keys": ["ctrl+r"], "command": "transpose" },
     { "keys": ["down"], "command": "hide_auto_complete_popup_and_move_down" },
     { "keys": ["ctrl+shift+`"], "command": "switch_paired_mode" },
