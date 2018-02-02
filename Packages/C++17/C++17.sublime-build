@@ -1,5 +1,5 @@
 {
- "cmd": ["g++", "-std=c++1y", "${file}", "-o", "${file_path}/${file_base_name}"],
+ "cmd": ["g++", "-std=c++1y", "${file}", "-lamqpcpp", "-lpthread", "-levent", "-o", "${file_path}/${file_base_name}"],
  "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
  "working_dir": "${file_path}",
  "selector": "source.c, source.c++",
@@ -7,7 +7,7 @@
  [
    {
      "name": "Run",
-     "cmd":["bash", "-c", "g++ -std=c++1y '${file}' -o '${file_path}/${file_base_name}' -lboost_system -lboost_filesystem -lpthread -lcrypto -lssl && '${file_path}/${file_base_name}'"]
+     "cmd":["bash", "-c", "g++ -std=c++1y '${file}' -o '${file_path}/${file_base_name}' -lboost_system -lboost_filesystem -lamqpcpp -lpthread -lcrypto -lssl && '${file_path}/${file_base_name}'"]
    }
  ]
 }

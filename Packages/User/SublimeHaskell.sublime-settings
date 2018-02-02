@@ -1,0 +1,13 @@
+{
+	"prettify_executable" : "stylish-haskell",
+	"name of backend": {
+       "default": true,             // Only one of your backends should be true. SublimeHaskell will use the first
+                                          // default backend it finds if there is more than one default backend.
+                                          // (remember: this is a dictionary, so it's not necessarily the one you think
+                                          // it should be.)
+       "backend": "hsdev",   // Self explanatory
+       "options": {
+         // see below
+       }
+     }
+}

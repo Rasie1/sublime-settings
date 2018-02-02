@@ -17,13 +17,13 @@ Defined B4CEA8
 				<key>background</key>
 				<string>#111111</string>
 				<key>caret</key>
-				<string>#dcdcdc</string>
+				<string>#DCDCDC</string>
 				<key>foreground</key>
-				<string>#dddddd</string>
+				<string>#DDDDDD</string>
 				<key>invisibles</key>
-				<string>#FFFFFF</string>
+				<string>#FFFFFF40</string>
 				<key>lineHighlight</key>
-				<string>#0f0f0f</string>
+				<string>#0F0F0F</string>
 				<key>selection</key>
 				<string>#264F78</string>
 			</dict>
@@ -38,7 +38,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#c2f483</string>
+				<string>#b4a3e2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -51,7 +51,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#dddddd</string>
+				<string>#DDDDDD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -64,7 +64,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#e6f6ec</string>
+				<string>#f5dcf7</string>
 			</dict>
 		</dict>
         <dict>
@@ -77,7 +77,7 @@ Defined B4CEA8
                 <key>fontStyle</key>
                 <string/>
                 <key>foreground</key>
-                <string>#dddddd</string>
+                <string>#DDDDDD</string>
             </dict>
         </dict>
 		<dict>
@@ -90,7 +90,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#dddddd</string>
+				<string>#DDDDDD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -103,7 +103,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#dddddd</string>
+				<string>#DDDDDD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -116,7 +116,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#cddd81</string>
+				<string>#cd68f6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -129,7 +129,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#f38fa8</string>
+				<string>#cf86d5</string>
 			</dict>
 		</dict>
 		<dict>
@@ -142,7 +142,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#e6f6ec</string>
+				<string>#f5dcf7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -155,7 +155,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#e6f6ec</string>
+				<string>#f5dcf7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -168,7 +168,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#01fafd</string>
+				<string>#ac97b5</string>
 			</dict>
 		</dict>
 		<dict>
@@ -181,7 +181,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#d782f0</string>
+				<string>#b0d9c0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -220,7 +220,7 @@ Defined B4CEA8
                 <key>fontStyle</key>
                 <string>bold</string>
                 <key>foreground</key>
-                <string>#dddddd</string>
+                <string>#DDDDDD</string>
             </dict>
         </dict>
         <dict>
@@ -233,7 +233,7 @@ Defined B4CEA8
                 <key>fontStyle</key>
                 <string/>
                 <key>foreground</key>
-                <string>#f3f4e0</string>
+                <string>#f38450</string>
             </dict>
         </dict>
 		<dict>
@@ -246,7 +246,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#f3f4e0</string>
+				<string>#f38450</string>
 			</dict>
 		</dict>
 		<dict>
@@ -259,7 +259,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#f3f4e0</string>
+				<string>#f38450</string>
 			</dict>
 		</dict>
 		<dict>
@@ -272,7 +272,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#e6f6ec</string>
+				<string>#f5dcf7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -285,7 +285,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#f3f4e0</string>
+				<string>#f38450</string>
 			</dict>
 		</dict>
 		<dict>
@@ -333,7 +333,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#dddddd</string>
+				<string>#DDDDDD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -346,7 +346,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#f3f4e0</string>
+				<string>#f38450</string>
 			</dict>
 		</dict>
 		<dict>
@@ -359,7 +359,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#cddd81</string>
+				<string>#cd68f6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -372,7 +372,7 @@ Defined B4CEA8
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#dddddd</string>
+				<string>#DDDDDD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -508,43 +508,43 @@ Defined B4CEA8
 				<string>#C8C8C8</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>name</key>
-			<string>Markup: Heading</string>
-			<key>scope</key>
-			<string>markup.heading</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string/>
-				<key>foreground</key>
-				<string>#3C47FF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Markup: Quote</string>
-			<key>scope</key>
-			<string>markup.quote</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string/>
-				<key>foreground</key>
-				<string>#44AA44</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Markup: List</string>
-			<key>scope</key>
-			<string>markup.list</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#B946D0</string>
-			</dict>
-		</dict>
+        <dict>
+            <key>name</key>
+            <string>Markup: Heading</string>
+            <key>scope</key>
+            <string>markup.heading</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string/>
+                <key>foreground</key>
+                <string>#3C47FF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markup: Quote</string>
+            <key>scope</key>
+            <string>markup.quote</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string/>
+                <key>foreground</key>
+                <string>#44AA44</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markup: List</string>
+            <key>scope</key>
+            <string>markup.list</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#B946D0</string>
+            </dict>
+        </dict>
 		<dict>
 			<key>name</key>
 			<string>§ css tag-name</string>
